@@ -1,0 +1,14 @@
+/.idea/
+/*.log
+/compiled/
+/node_modules/
+!/dev/dump.rdb
+/tmp/
+/build/
+/mocha.json
+/micros.sd.yml
+/dev/redis/
+.*.swp
+/.babelrc
+/.editorconfig
+/*.iml
