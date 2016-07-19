@@ -19,7 +19,7 @@ module Fluent
     config_param :alert_type, :string, :default => nil
     config_param :priority, :string, :default => nil
     config_param :aggregation_key, :string, :default => nil
-    config_param :source_type_name, :array, :default => []
+    config_param :source_type_name, :array, :default => nil
 
     def configure(conf)
       super
